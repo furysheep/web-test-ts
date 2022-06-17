@@ -4,7 +4,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+section {
+  width: 80%;
+  max-width: 1000px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+ul.dash {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1em;
+  margin-left: -1em;
+}
+
+button {
+  padding-left: 5px;
+  padding-right: 5px;
 }
